@@ -13,18 +13,28 @@ body {
 --avatar_color: hsl(246, 80%, 60%);
 --section_color: hsl(235, 46%, 20%);
 --paragraph_color: hsl(236, 100%, 87%);
+--card_color: hsl(235, 45%, 61%);
+--work: hsl(15, 100%, 70%);
+--play: hsl(195, 74%, 62%);
+--study: hsl(348, 100%, 68%);
+--exercise: hsl(145, 58%, 55%);
+--social: hsl(264, 64%, 52%);
+--self_care: hsl(43, 84%, 65%);
 }
+
+
 
 main {
   margin: 15rem auto;
   width: 75%;
   height: 26rem;
   display: flex;
+  gap: 5%;
 }
 
 section {
   height: 100%;
-  width: 50rem;
+  width: 20%;
   background-color: var(--section_color);
   border-radius: 1rem;
   text-align: left;
@@ -75,10 +85,67 @@ section img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 75%;
   height: 100%;
+  gap: 5%;
 }
 
-.container div {
-  width: 33%;
-  height: 50%;
+.card {
+  width: 30%;
+  height: 47%;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.card_content {
+  width:100%;
+  position:relative;
+  top: 10%;
+  bottom: 0;
+  height: 80%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: var(--section_color);
+}
+
+#work {
+  background-image: url("images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-color: var(--work);
+  background-position: 90% -5%;
+}
+
+#play {
+  background-image: url("images/icon-play.svg");
+  background-repeat: no-repeat;
+  background-color: var(--play);
+  background-position: 90% -5%;
+}
+
+#study {
+  background-image: url("images/icon-study.svg");
+  background-repeat: no-repeat;
+  background-color: var(--study);
+  background-position: 90% -5%;
+}
+
+#exercise {
+  background-image: url("images/icon-exercise.svg");
+  background-repeat: no-repeat;
+  background-color: var(--exercise);
+  background-position: 90% -5%;
+}
+
+#social {
+  background-image: url("images/icon-social.svg");
+  background-repeat: no-repeat;
+  background-color: var(--social);
+  background-position: 90% -5%;
+}
+
+#self_care {
+  background-image: url("images/icon-self-care.svg");
+  background-repeat: no-repeat;
+  background-color: var(--self_care);
+  background-position: 90% -5%;
 }
