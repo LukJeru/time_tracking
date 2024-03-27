@@ -5,6 +5,7 @@ body {
   font-size: 18px;
   font-family: "Rubik";
   color: rgb(255,255,255);
+  background-color: var(--background);
 }
 
 :root {
@@ -13,5 +14,25 @@ body {
 }
 
 main {
-  background-color: var(--background);
+  margin: 15rem auto;
+  width: 75%;
+  height: 40%;
+  display: flex;
+}
+
+section {
+  height: 100%;
+  width: 30rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.container div {
+  width: 33%;
+  height: 50%;
 }
