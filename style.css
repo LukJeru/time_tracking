@@ -79,19 +79,20 @@ section img {
   height: 4rem;
   width: 4rem;
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
 }
 
-.choice p {
+#choice p {
   padding-left: 2rem;
   color: var(--paragraph_color);
   opacity: .6;
   font-size: 1rem;
 }
 
-.choice p:hover {
+#choice p:hover {
   color: white;
   opacity: 1;
+  cursor: pointer;
 }
 
 .container {
