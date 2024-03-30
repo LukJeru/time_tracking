@@ -197,3 +197,7 @@ section img {
   position: relative;
   bottom: 4.3rem;
 }
+
+#choice p:active {
+  color: red;
+}
