@@ -114,7 +114,6 @@ section img {
 
 .card_content {
   width:100%;
-  bottom: 0;
   height: 80%;
   padding: 0rem 2rem;
   display: flex;
@@ -196,4 +195,27 @@ section img {
   font-size: .8rem;
   position: relative;
   bottom: 4.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+  }
+  section {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .card {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    clear: both;
+  }
 }
